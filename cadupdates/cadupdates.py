@@ -109,72 +109,72 @@ def clear_screen():
 def list_updates(database,current_step):
     print("")
     if database == 1:
-        print("1.  DB1DR" , end="") 
+        print(str.ljust("1.  DB1DR",19) , end="") 
     else: 
-        print("1.  DB1", end="")
+        print(str.ljust("1.  DB1",19), end="")
     if current_step < 2:
         print("")
     if current_step == 2:
         print("\33[93m In Progress\33[0m")
     if current_step >2:
         print("\33[92m ✓\33[0mComplete")
-    print("2.  ITDDESOCMQ1", end="")
+    print(str.ljust("2.  ITDDESOCMQ1",19), end="")
     if current_step < 4:
         print("")
     if current_step == 4:
         print("\33[93m In Progress\33[0m")
     if current_step >4:
         print("\33[92m ✓\33[0mComplete")
-    print("3.  ITDDESOCMQ2", end="")
+    print(str.ljust("3.  ITDDESOCMQ2",19), end="")
     if current_step < 6:
         print("")
     if current_step == 6:
         print("\33[93m In Progress\33[0m")
     if current_step >6:
         print("\33[92m ✓\33[0mComplete")
-    print("4.  ITDDESOCMQ3", end="")
+    print(str.ljust("4.  ITDDESOCMQ3",19), end="")
     if current_step < 8:
         print("")
     if current_step == 8:
         print("\33[93m In Progress\33[0m")
     if current_step >8:
         print("\33[92m ✓\33[0mComplete")
-    print("5.  ITDDESOCISM1", end="")
+    print(str.ljust("5.  ITDDESOCISM1",19), end="")
     if current_step < 10:
         print("")
     if current_step == 10:
         print("\33[93m In Progress\33[0m")
     if current_step >10:
         print("\33[92m ✓\33[0mComplete")
-    print("6.  ITDDESOCISM2", end="")
+    print(str.ljust("6.  ITDDESOCISM2",19), end="")
     if current_step < 12:
         print("")
     if current_step == 12:
         print("\33[93m In Progress\33[0m")
     if current_step > 12:
         print("\33[92m ✓\33[0mComplete")
-    print("7.  ITDDESOCWEBAPP1", end="" )
+    print(str.ljust("7.  ITDDESOCWEBAPP1",19), end="" )
     if current_step < 14:
         print("")
     if current_step == 14:
         print("\33[93m In Progress\33[0m")
     if current_step >14:
         print("\33[92m ✓\33[0mComplete")
-    print("8.  ITDDESOCWEBAPP2", end="")
+    print(str.ljust("8.  ITDDESOCWEBAPP2",19), end="")
     if current_step < 16:
         print("")
     if current_step == 16:
         print("\33[93m In Progress\33[0m")
     if current_step >16:
         print("\33[92m ✓\33[0mComplete")
-    print("9.  ITDDESOCIF1", end="")
+    print(str.ljust("9.  ITDDESOCIF1",19), end="")
     if current_step < 18:
         print("")
     if current_step == 18:
         print("\33[93m In Progress\33[0m")
     if current_step >18:
         print("\33[92m ✓\33[0mComplete")
-    print("10. ITDDESOCIF2", end="")
+    print(str.ljust("10. ITDDESOCIF2",19), end="")
     if current_step < 20:
         print("")
     if current_step == 20:
@@ -186,30 +186,30 @@ def list_updates(database,current_step):
     
     print("2 Days Later:")
     if database == 2:
-        print("1.  DB1DR" , end="") 
+        print(str.ljust("1.  DB1DR",19) , end="") 
     else: 
-        print("1.  DB1", end="")
+        print(str.ljust("1.  DB1",19), end="")
     if current_step < 22:
         print("")
     if current_step == 22:
         print("\33[93m In Progress\33[0m")
     if current_step >22:
         print("\33[92m ✓\33[0mComplete")
-    print("2.  ITDDESOCMQ4", end="")
+    print(str.ljust("2.  ITDDESOCMQ4",19), end="")
     if current_step < 24:
         print("")
     if current_step == 24:
         print("\33[93m In Progress\33[0m")
     if current_step >24:
         print("\33[92m ✓\33[0mComplete")
-    print("3.  ITDDESOCMQ5", end="")
+    print(str.ljust("3.  ITDDESOCMQ5",19), end="")
     if current_step < 26:
         print("")
     if current_step == 26:
         print("\33[93m In Progress\33[0m")
     if current_step >26:
         print("\33[92m ✓\33[0mComplete")
-    print("4.  ITDDESOCMQ6", end="")
+    print(str.ljust("4.  ITDDESOCMQ6",19), end="")
     if current_step < 28:
         print("")
     if current_step == 28:
